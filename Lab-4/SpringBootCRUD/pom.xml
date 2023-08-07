@@ -48,20 +48,31 @@
 			<version>5.8.2</version>
 			<scope>test</scope>
 		</dependency>
-		<!--Cross origin Dependency-->
+		 
 		<dependency>
 			<groupId>com.allenru</groupId>
 			<artifactId>cross-origin</artifactId>
 			<version>1.0.1</version>
 		</dependency>
-<!--springboot is working on 8082 port , But Angular will run on 4200 port-->
-
- 		<!--Devtool Dependency-->
+ 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
- 
+		
+		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.7.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.7.0</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
